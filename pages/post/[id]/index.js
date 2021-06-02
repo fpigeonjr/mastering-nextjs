@@ -1,13 +1,11 @@
-import { useRouter } from 'next/router'
 import Header from '../../../components/header'
-import React from 'react'
 
 const Post = ({ title, body }) => (
-  <React.Fragment>
+  <>
     <Header />
     <h1>{title}</h1>
     <p>{body}</p>
-  </React.Fragment>
+  </>
 )
 
 Post.getInitialProps = async ({ query }) => {

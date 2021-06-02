@@ -19,6 +19,11 @@ export default () => (
         </Link>
       </li>
       <li>
+        <Link href="/login">
+          <a>Login</a>
+        </Link>
+      </li>
+      <li>
         <Link as="/post/1" href="/post/[id]">
           <a>First Post</a>
         </Link>
